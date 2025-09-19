@@ -8,8 +8,7 @@
 - **Tags** : #crypto , #reversing , #bruteforce 
 - **Description** : Implementing your own military-grade encryption is usually not the best idea.
 
-![[challengeLogo.png]]
-
+![alt text](challengeLogo.png)
 
 # Procedure
 ---
