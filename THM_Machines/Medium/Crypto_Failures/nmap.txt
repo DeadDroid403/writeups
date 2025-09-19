@@ -1,0 +1,18 @@
+# Nmap 7.95 scan initiated Wed Sep 17 11:47:42 2025 as: /usr/lib/nmap/nmap -sS -sC -sV -vv -Pn -T4 -p 22,8888 -oN nmap.txt 10.201.74.81
+Nmap scan report for 10.201.74.81
+Host is up, received user-set (0.29s latency).
+Scanned at 2025-09-17 11:47:43 IST for 10s
+
+PORT     STATE  SERVICE        REASON         VERSION
+22/tcp   open   ssh            syn-ack ttl 60 OpenSSH 8.9p1 Ubuntu 3ubuntu0.7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   256 57:2c:43:78:0c:d3:13:5b:8d:83:df:63:cf:53:61:91 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBLzr4Vofjl638nnDY3An43MoyY16cLwD35mQcij2JA9Gb6JJS8Bkur4EGqKMCTFpn3d8nLchdagEv7qiLz27L/g=
+|   256 45:e1:3c:eb:a6:2d:d7:c6:bb:43:24:7e:02:e9:11:39 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFz6qIOaKC8mHBZTNddfSLB4UD+08kNA9vRH/5hclyd9
+8888/tcp closed sun-answerbook reset ttl 60
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Sep 17 11:47:53 2025 -- 1 IP address (1 host up) scanned in 11.26 seconds
